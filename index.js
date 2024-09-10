@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const app = express()
-const PORT = 8077
+const PORT = 8078
 
 const userRouter = require('./routs/user.router')
 const postRouter = require('./routs/post.router')
